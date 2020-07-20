@@ -1,16 +1,49 @@
 {
-    "options": {},
+    "Options": {
+        "LedsBySegment": 5,
+        "TimeLength": 1,
+        "Delay": 100,
+        "Output": "Output.txt",
+        "Separator": " "
+    },
     "Segments": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        [
+            {
+                "TypeTemporal": "Linear",
+                "TypeSpatial": "Linear",
+                "ColorTiSi": [
+                    0,
+                    0,
+                    0
+                ],
+                "ColorTiSe": [
+                    0,
+                    0,
+                    0
+                ],
+                "ColorTeSi": [
+                    0,
+                    0,
+                    0
+                ],
+                "ColorTeSe": [
+                    0,
+                    0,
+                    0
+                ],
+                "TimeLength": 1000
+            }
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
     ]
 }
