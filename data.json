@@ -1,10 +1,11 @@
 {
     "Options": {
+        "nbSegment": 12,
         "LedsBySegment": 5,
-        "TimeLength": 1,
-        "Delay": 100,
-        "Output": "Output.txt",
-        "Separator": " "
+        "TimeLength": 1000,
+        "Delay": 250,
+        "Output": "Output",
+        "OutputType": "header"
     },
     "Segments": [
         [
@@ -13,11 +14,11 @@
                 "TypeSpatial": "Linear",
                 "ColorTiSi": [
                     0,
-                    0,
+                    200,
                     0
                 ],
                 "ColorTiSe": [
-                    0,
+                    150,
                     0,
                     0
                 ],
@@ -29,9 +30,19 @@
                 "ColorTeSe": [
                     0,
                     0,
-                    0
+                    200
                 ],
-                "TimeLength": 1000
+                "TimeLength": 1000,
+                "Effect": {
+                    "Type": "Rain",
+                    "Reverse": false,
+                    "StepNumber": 1,
+                    "Color": [
+                        0,
+                        0,
+                        0
+                    ]
+                }
             }
         ],
         [],
